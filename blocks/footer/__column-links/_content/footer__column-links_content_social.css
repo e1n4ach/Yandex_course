@@ -1,0 +1,9 @@
+.footer__column-links_content_social {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  width: 150px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}

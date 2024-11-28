@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./vendor/normalize.css">
+  <link rel="stylesheet" href="./pages/index.css">
   <title>Научиться учиться</title>
 </head>
-<body>
+<body class="root">
   <div class="page">
     <header class="header">
       <img alt="header__logo" class="logo logo_place_header" src="./images/logo_place_header.svg">
@@ -22,9 +22,9 @@
     <main class="content">
       <section class="description" id="link_learn">
         <div class="desription__two-columns">
-          <h2 class="brief">Главные проблемы в обучении</h2>
-          <div class="main-text">
-            <p class="paragraph">
+          <h2 class="desription__brief">Главные проблемы в обучении</h2>
+          <div class="desription__main-text">
+            <p class="desription__paragraph">
               Ни в школе, ни в институте нас не учат тому,
               как правильно изучать материал. Мы готовимся
               к экзаменам и учим билеты. Мы тренируемся решать
@@ -32,11 +32,11 @@
               часто в итоге это не дает нам реального знания.
               Зубрежка быстро выветривается и не приносит пользы.
             </p>
-            <p class="paragraph paragraph_place_center">
-              <span>Вывод:</span> учиться тоже нужно уметь, но почему-то этому
+            <p class="desription__paragraph desription__paragraph_place_center">
+              <span class="desription__paragraph_weight_bold">Вывод:</span> учиться тоже нужно уметь, но почему-то этому
               мало где учат. Что с этим делать?
             </p>
-            <p class="paragraph">
+            <p class="desription__paragraph">
               Конкретные техники и упражнения помогают изменить
               подход к обучению, сделать его эффективным и захватывающим.
               Эти же техники применяются на примере обучения в Практикуме.
@@ -45,126 +45,126 @@
         </div>
       </section>
       <section class="digits">
-        <h2 class="section-title">Цифры и факты</h2>
-        <h3 class="section-subtitle">Про учёбу и мозг</h3>
+        <h2 class="main-title">Цифры и факты</h2>
+        <h3 class="main-subtitle">Про учёбу и мозг</h3>
         <div class="table">
-          <div class="cell digits__table_cell">
-            <p class="cell__heading">86 миллиардов</p>
-            <p class="cell__text">Число нейронов в мозге человека</p>
+          <div class="table__cell table__cell_theme_light">
+            <p class="table__cell_text_heading">86 миллиардов</p>
+            <p class="table__cell_text_description">Число нейронов в мозге человека</p>
           </div>
-          <div class="cell digits__table_cell">
-            <p class="cell__heading">2.1 миллиарда</p>
-            <p class="cell__text">Число нуждающихся в повышении квалификации</p>
-            <p class="cell__text">Всемирный Банк, 2017</p>
+          <div class="table__cell table__cell_theme_light">
+            <p class="table__cell_text_heading">2.1 миллиарда</p>
+            <p class="table__cell_text_description">Число нуждающихся в повышении квалификации</p>
+            <p class="table__cell_text_description">Всемирный Банк, 2017</p>
           </div>
-          <div class="cell digits__table_cell">
-            <p class="cell__heading">1000 терабайт</p>
-            <p class="cell__text">Объём памяти человека</p>
+          <div class="table__cell table__cell_theme_light">
+            <p class="table__cell_text_heading">1000 терабайт</p>
+            <p class="table__cell_text_description">Объём памяти человека</p>
           </div>
-          <div class="cell digits__table_cell">
-            <p class="cell__heading">500 триллионов</p>
-            <p class="cell__text">Число ответственных за обучение нервных синапсов у взрослого человека</p>
+          <div class="table__cell table__cell_theme_light">
+            <p class="table__cell_text_heading">500 триллионов</p>
+            <p class="table__cell_text_description">Число ответственных за обучение нервных синапсов у взрослого человека</p>
           </div>
-          <div class="cell digits__table_cell">
-            <p class="cell__heading">420 миллионов</p>
-            <p class="cell__text">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</br></p>
-            <p class="cell__text">Всемирный Банк, 2017</p>
+          <div class="table__cell table__cell_theme_light">
+            <p class="table__cell_text_heading">420 миллионов</p>
+            <p class="table__cell_text_description">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</br></p>
+            <p class="table__cell_text_description">Всемирный Банк, 2017</p>
           </div>
-          <div class="cell digits__table_cell">
-            <p class="cell__heading">17–20 лет</p>
-            <p class="cell__text">Пик обучаемости</p>
+          <div class="table__cell table__cell_theme_light">
+            <p class="table__cell_text_heading">17–20 лет</p>
+            <p class="table__cell_text_description">Пик обучаемости</p>
           </div>
-          <div class="cell digits__table_cell">
-            <p class="cell__heading">1885 год</p>
-            <p class="cell__text">Открытие кривой забывания</p>
+          <div class="table__cell table__cell_theme_light">
+            <p class="table__cell_text_heading">1885 год</p>
+            <p class="table__cell_text_description">Открытие кривой забывания</p>
           </div>
-          <div class="cell digits__table_cell">
-            <p class="cell__heading">1889 год</p>
-            <p class="cell__text">Открытие условного рефлекса</p>
+          <div class="table__cell table__cell_theme_light">
+            <p class="table__cell_text_heading">1889 год</p>
+            <p class="table__cell_text_description">Открытие условного рефлекса</p>
           </div>
         </div>
       </section>
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
-        <a href="#link_description" class="link feynman_link">Подробнее →</a>
-        <img alt="feynman_img" class="feynman_image" src="./images/feynman.png">
+        <a href="#link_description" class="link feynman__link">Подробнее →</a>
+        <img alt="feynman_img" class="feynman__image" src="./images/feynman.png">
       </section>
 
       <section class="kaufman" id="link_description">
-        <h2 class="section-title">Принципы обучения</h2>
-        <h3 class="section-subtitle">от Джоша Кауфмана</h3>
+        <h2 class="main-title">Принципы обучения</h2>
+        <h3 class="main-subtitle">от Джоша Кауфмана</h3>
         <div class="table">
-          <div class="cell table__cell_theme_dark">
-            <p class="cell__heading">1</p>
-            <p class="cell__text">Выберите привлекательный проект.</p>
+          <div class="table__cell table__cell_theme_dark">
+            <p class="table__cell_text_heading">1</p>
+            <p class="table__cell_text_description">Выберите привлекательный проект.</p>
           </div>
-          <div class="cell table__cell_theme_dark">
-            <p class="cell__heading">2</p>
-            <p class="cell__text">Сосредоточьтесь на каком-то одном навыке.</p>
+          <div class="table__cell table__cell_theme_dark">
+            <p class="table__cell_text_heading">2</p>
+            <p class="table__cell_text_description">Сосредоточьтесь на каком-то одном навыке.</p>
           </div>
-          <div class="cell table__cell_theme_dark">
-            <p class="cell__heading">3</p>
-            <p class="cell__text">Определите целевой уровень мастерства.</p>
+          <div class="table__cell table__cell_theme_dark">
+            <p class="table__cell_text_heading">3</p>
+            <p class="table__cell_text_description">Определите целевой уровень мастерства.</p>
           </div>
-          <div class="cell table__cell_theme_dark">
-            <p class="cell__heading">4</p>
-            <p class="cell__text">Разбейте навык на элементы.</p>
+          <div class="table__cell table__cell_theme_dark">
+            <p class="table__cell_text_heading">4</p>
+            <p class="table__cell_text_description">Разбейте навык на элементы.</p>
           </div>
-          <div class="cell table__cell_theme_dark">
-            <p class="cell__heading">5</p>
-            <p class="cell__text">Приготовьте всё необходимое для занятий.</p>
+          <div class="table__cell table__cell_theme_dark">
+            <p class="table__cell_text_heading">5</p>
+            <p class="table__cell_text_description">Приготовьте всё необходимое для занятий.</p>
           </div>
-          <div class="cell table__cell_theme_dark">
-            <p class="cell__heading">6</p>
-            <p class="cell__text">Устраните препятствия для занятий.</p>
+          <div class="table__cell table__cell_theme_dark">
+            <p class="table__cell_text_heading">6</p>
+            <p class="table__cell_text_description">Устраните препятствия для занятий.</p>
           </div>
-          <div class="cell table__cell_theme_dark">
-            <p class="cell__heading">7</p>
-            <p class="cell__text">Выделите специальное время для занятий.</p>
+          <div class="table__cell table__cell_theme_dark">
+            <p class="table__cell_text_heading">7</p>
+            <p class="table__cell_text_description">Выделите специальное время для занятий.</p>
           </div>
-          <div class="cell table__cell_theme_dark">
-            <p class="cell__heading">8</p>
-            <p class="cell__text">Создайте быстрые петли обратной связи.</p>
+          <div class="table__cell table__cell_theme_dark">
+            <p class="table__cell_text_heading">8</p>
+            <p class="table__cell_text_description">Создайте быстрые петли обратной связи.</p>
           </div>
-          <div class="cell table__cell_theme_dark">
-            <p class="cell__heading">9</p>
-            <p class="cell__text">Занимайтесь по расписанию, короткими интенсивными интервалами.</p>
+          <div class="table__cell table__cell_theme_dark">
+            <p class="table__cell_text_heading">9</p>
+            <p class="table__cell_text_description">Занимайтесь по расписанию, короткими интенсивными интервалами.</p>
           </div>
-          <div class="cell table__cell_theme_dark">
-            <p class="cell__heading">10</p>
-            <p class="cell__text">Уделяйте внимание количеству и скорости.</p>
+          <div class="table__cell table__cell_theme_dark">
+            <p class="table__cell_text_heading">10</p>
+            <p class="table__cell_text_description">Уделяйте внимание количеству и скорости.</p>
           </div>
-          <img alt="triangle" class="kaufman_image" src="./images/kaufman-triangle.svg">
+          <img alt="triangle" class="kaufman__image" src="./images/kaufman-triangle.svg">
       </section>
     </main>
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__columns_content_copyright">
-          <img alt="header__logo" class="logo logo_place_footer" src="./images/logo_place_footer.svg">
-          <p class="footer_author">&copy Ситников Илья </p>
+          <img alt="footer__logo" class="logo logo_place_footer" src="./images/logo_place_footer.svg">
+          <p class="footer__author">&copy Ситников Илья </p>
         </div>
         <div class="footer__columns_content_info">
-          <h3 class="footer__column_heading">О Практикуме</h3>
-          <nav class="column-links">
-            <a href="#" class="column-link">Главная</a>
-            <a href="#" class="column-link">Концепция</a>
-            <a href="#" class="column-link">Наставники</a>
+          <h3 class="footer__column-heading">О Практикуме</h3>
+          <nav class="footer__column-links">
+            <a href="#" class="footer__column-links_content_info">Главная</a>
+            <a href="#" class="footer__column-links_content_info">Концепция</a>
+            <a href="#" class="footer__column-links_content_info">Наставники</a>
           </nav>
         </div>
         <div class="footer__columns_content_social">
-          <h3 class="footer__column_heading">Соцсети</h3>
-          <nav class="column-links">
-            <a href="https://www.youtube.com/" class="column-link__social">
-              <img alt="Youtube" class="column-link__social_img" src="./images/youtube_color_white.svg">
+          <h3 class="footer__column-heading">Соцсети</h3>
+          <nav class="footer__column-links">
+            <a href="https://www.youtube.com/" class="footer__column-links_content_social">
+              <img alt="Youtube" class="footer__column-links-img" src="./images/youtube_color_white.svg">
               Youtube
             </a>
-            <a href="https://vk.com" class="column-link__social">
-              <img alt="VK" class="column-link__social_img" src="./images/vk_color_white.svg">
+            <a href="https://vk.com" class="footer__column-links_content_social">
+              <img alt="VK" class="footer__column-links-img" src="./images/vk_color_white.svg">
               ВКонтакте
             </a>
-            <a href="https://www.tiktok.com/" class="column-link__social">
-              <img alt="Tiktok" class="column-link__social_img" src="./images/tiktok_color_white.svg">
+            <a href="https://www.tiktok.com/" class="footer__column-links_content_social">
+              <img alt="Tiktok" class="footer__column-links-img" src="./images/tiktok_color_white.svg">
               TikTok
             </a>
           </nav>

@@ -1,0 +1,9 @@
+.main-title {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  justify-content: center;
+}
